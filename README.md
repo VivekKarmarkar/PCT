@@ -4,7 +4,7 @@ Scripts relating to the Point Cluster Technique algorithm
 # First Iteration Highlights
 
 ## Algorithms
-1D Unconstrained Optimization (Original PCT, 3 <= N <= 12)
+1D Unconstrained Optimization (Original PCT, 3 <= N <= 12)__
 2D Unconstrained Optimization (New mass redistribution function, 3 <= N <= 12)
 2D Constrained Optimization (New mass redistribution function which also accounts for angular error, Performed on each eigenvalue separately, 3 <= N <= 12)
 Iterative Perturbation Theory based approach (N=6, tolerances introduced by hand)
