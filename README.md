@@ -26,8 +26,8 @@ Cluster Point Global Position reconstruction error <br />
 ## Algorithm Changes
 Iterative Perturbation Theory based approach now supports N=4. Nonlinear mass solver using Levenberg-Marquardt for N=4 <br />
 Iterative Perturbation Theory algorithm now constrains the CM location <br />
-CM reflect function applied to the constrained Iterative Perturbation Theory CM as well as the Original PCT CM
-Hybrid algorithm combining Iterative Perturbation Theory CM and optimized PCT eigenvectors introduced
+CM reflect function applied to the constrained Iterative Perturbation Theory CM as well as the Original PCT CM <br />
+Hybrid algorithm combining Iterative Perturbation Theory CM and optimized PCT eigenvectors introduced <br />
 
 ## Setup Changes
 Markers placed only on lateral and anterior aspects of the thigh. This has been modeled by restricted angular range <br />
