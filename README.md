@@ -24,7 +24,7 @@ Cluster Point Global Position reconstruction error <br />
 # Second Iteration Highlights
 
 ## Algorithm Changes
-Iterative Perturbation Theory based approach now supports N=4. Nonlinear mass solver using Levenberg-Marquardt for N=4 <br />
+Iterative Perturbation Theory based approach now supports N=4. Nonlinear mass solver uses Levenberg-Marquardt for N=4 <br />
 Iterative Perturbation Theory algorithm now constrains the CM location <br />
 CM reflect function applied to the constrained Iterative Perturbation Theory CM as well as the Original PCT CM <br />
 Hybrid algorithm combining Iterative Perturbation Theory CM and optimized PCT eigenvectors introduced <br />
