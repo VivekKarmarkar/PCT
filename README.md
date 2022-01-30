@@ -39,3 +39,15 @@ The following anatomical markers have been placed on the cylinder modeling the t
 Markerless Anatomical Landmark reconsruction error <br />
 Standard deviation in the global reconstruction errors of cluster point <br />
 Planarity of marker configurations <br />
+
+# Third Iteration Highlights
+
+## Algorithm Changes
+SVD-LS algorithm added <br />
+CM reflect function not applicaple for SVD-LS since SVD-LS predicts noisy PCT CM <br />
+
+## Setup Changes
+None <br />
+
+## New Metrics
+None <br />
