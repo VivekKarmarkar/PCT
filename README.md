@@ -51,3 +51,33 @@ None <br />
 
 ## New Metrics
 None <br />
+
+# Fourth Iteration Highlights
+
+## Algorithm Changes
+2D Optimization permanently removed <br />
+1D Unconstrained Optimization (Original PCT and PCT reflected) temporarily removed due to instabilities <br />
+Iterative initial condition update applied for Perturbation Theory (PT), m0(t) = m*(t-dt) <br />
+CM_reflect adapted for cylinder in non-standard pose <br />
+Post-processing of discontinuity in PT reflection curves included <br />
+
+## Setup Changes
+Real Soft Tissue Artifact (STA) noise added to markers <br />
+PCT noise model removed <br />
+Entire time series simulated <br />
+System driven by kinematic input generated from real Groud Truth Data (GTD) <br />
+
+## New Metrics
+### For each configuration
+Center of Mass (CM) reconstruction error <br />
+Eigenvector reconstruction error <br />
+Cluster Point reconstruction error <br />
+Anatomical Landmark (AL) reconstruction error <br />
+Technical Frame (TF) pose <br />
+Anatomical Frame (AF) pose <br/>
+
+### For the average configuration
+Center of Mass (CM) reconstruction error <br />
+Eigenvector reconstruction error <br />
+Cluster Point reconstruction error <br />
+Anatomical Landmark (AL) reconstruction error <br />
