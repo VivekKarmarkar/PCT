@@ -89,3 +89,8 @@ Bug in nonlinear mass solver resolved <br />
 Best fit mass redistribution computed instead of solving for the mass resdistribution at each time step. This is done to avoid instabilities <br />
 CM_constraint fuction modified based on vector geometry <br />
 CM_constraint function no longer embedded in the nonlinear mass solver <br />
+
+# Sixth Iteration Highlights
+
+## Algorithm Changes
+Estimate Rotation Matrix using the known good Translation vector <br />
