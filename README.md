@@ -81,3 +81,11 @@ Center of Mass (CM) reconstruction error <br />
 Eigenvector reconstruction error <br />
 Cluster Point reconstruction error <br />
 Anatomical Landmark (AL) reconstruction error <br />
+
+# Fifth Iteration Highlights
+
+## Algorithm Changes
+Bug in nonlinear mass solver resolved <br />
+Best fit mass redistribution computed instead of solving for the mass resdistribution at each time step. This is done to avoid instabilities <br />
+CM_constraint fuction modified based on vector geometry <br />
+CM_constraint function no longer embedded in the nonlinear mass solver <br />
